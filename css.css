@@ -1,0 +1,141 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0; 
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #29303B;
+}
+
+select{
+    
+    background: transparent;
+    border: none;
+    outline: none;
+    font-family: 'Ubuntu';
+    padding: 20px 20px 20px 0px;
+    font-size: 20px;
+    margin: 0px 5px 0 20px;
+    color: #fff;
+}
+
+option{
+    color: black;
+}
+
+.wrapper{
+    background-image: linear-gradient(#3F4B59, #333D46);
+    width: 800px;
+    border-radius: 15px;
+    border: 1px solid;
+    box-shadow: 0 0 15px;
+    text-align: center;
+    padding: 50px;
+}
+
+
+
+.header h1{
+    color: #fff;
+    font-family: 'Ubuntu';
+    margin-bottom: 5px;
+    font-size: 50px;
+}
+
+.header p{
+    font-size: 32px;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    margin-bottom: 60px;
+}
+
+button{
+    position: absolute;
+    margin-left: -47px;
+    margin-top: 110px;
+    width: 100px;
+    height: 23px;
+    border-radius: 20px;
+    border: none;
+    background-image: linear-gradient(45deg, #2b89e7, #11e763);
+    cursor: pointer;
+}
+
+button:focus {
+    outline: none;
+    background-image: linear-gradient(45deg, #317fcc, #1fc06a);
+}
+
+button:hover {
+    outline: none;
+    background-image: linear-gradient(45deg, #317fcc, #1fc06a);
+}
+
+.left-currency{
+    margin-right: 100px;
+}
+
+.right-currency{
+    margin-left: 350px ;
+    margin-top:  -60px;
+}
+
+.right-currency input{
+    background: transparent;
+    font-family: 'Readex Pro', sans-serif;
+    width: 300px;
+    font-size: 60px;
+    color: #fff;
+    margin-left: 55px;
+    margin-top: 60px;
+    outline: none;
+    text-align: center;
+    border: none;
+}
+
+.right-currency select{
+    position: absolute;
+    margin-left: -15px;
+    font-size: 36px;
+    cursor: pointer;
+}
+
+.left-currency input{
+    position: absolute;
+    background: transparent;
+    font-family: 'Readex Pro', sans-serif;
+    width: 300px;
+    font-size: 60px;
+    color: #fff;
+    margin-left: -300px;
+    text-align: center;
+    outline: none;
+    border: none;
+}
+
+.left-currency select{
+    position: absolute;
+    font-size: 36px;
+    cursor: pointer;
+    margin-left: -200px;
+    margin-top: 80px;
+    cursor: pointer;
+}
+
+
+.result{
+    margin-top: 80px;
+    margin-left: 18px;
+    color: rgb(175, 166, 166);
+    font-size: 30px;
+}
+
+.wrapper input:focus, .wrapper select:focus{
+    outline: none;
+    color: rgb(67,171,255);
+}
